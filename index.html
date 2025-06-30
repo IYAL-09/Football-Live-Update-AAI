@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6888276135991790" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Football News Update AAI – Live Scores, Match Stats, Fixtures</title>
+  <meta name="description" content="Get real-time football updates, scores, match stats, and fixtures from leagues around the world with Football News Update AAI.">
+  <meta name="keywords" content="football live scores, football, match stats, team standings, fixtures, Football News Update AAI, soccer updates">
+  <meta name="author" content="Football News Update AAI Team, Abdulrahman Auwal Iyal">
+
+  <!-- ✅ Facebook Open Graph Meta Tags -->
+  <meta property="og:title" content="Football News Update AAI – Live Football Scores & Match Info" />
+  <meta property="og:description" content="Get the latest football scores, live match stats, and results from top leagues." />
+  <meta property="og:image" content="https://football-news-update-aai.name.ng/og-preview.jpg" />
+  <meta property="og:url" content="https://football-news-update-aai.name.ng/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Football News Update AAI" />
+
+  <!-- ✅ Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Football News Update AAI" />
+  <meta name="twitter:description" content="Live football updates, team stats, fixtures & more." />
+  <meta name="twitter:image" content="https://football-news-update-aai.name.ng/og-preview.jpg" />
+
+  <meta name="google-site-verification" content="G9lwgxYEus9zX0AyBLfXotyPdFEPVyYNd4Yc_reORVM" />
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background-color: #f4f7fa; color: #333; }
+    header { background-color: #002b5c; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+    .logo { display: flex; align-items: center; justify-content: center; }
+    .logo img { width: 80px; height: 80px; margin-right: 10px; border-radius: 50px; border: 3px solid white; object-fit: cover; }
+    .logo h1 { font-size: 1.2rem; }
+    .hamburger { cursor: pointer; display: flex; flex-direction: column; gap: 4px; }
+    .hamburger div { background-color: white; height: 3px; width: 25px; }
+    #menu { display: none; flex-direction: column; background-color: #004080; }
+    #menu.show { display: flex; }
+    #menu a { color: white; text-decoration: none; padding: 12px; border-top: 1px solid #0074d9; }
+    #menu a:hover { background-color: #005fa3; }
+    .featured-banner { background-color: #0074d9; color: white; font-weight: bold; text-align: center; padding: 15px; font-size: 1.1rem; }
+    .league-section { padding: 20px; }
+    .league-section h2 { color: #002b5c; border-bottom: 2px solid #0074d9; margin-bottom: 10px; font-size: 1.25rem; }
+    .match { background-color: white; margin-bottom: 12px; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); display: flex; align-items: center; justify-content: space-between; }
+    .match-info { display: flex; align-items: center; gap: 10px; }
+    .match-time { font-weight: bold; }
+    .teams { display: flex; align-items: center; gap: 5px; }
+    .teams img { height: 20px; }
+    .star { cursor: pointer; font-size: 1.2rem; color: gold; }
+    @media (max-width: 768px) {
+      .match { flex-direction: column; align-items: flex-start; }
+    }
+    .ad-banner {
+      width: 100%;
+      max-width: 728px;
+      height: 90px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Cookie Consent -->
+  <div id="cookieConsent" style="display:none; position:fixed; bottom:0; left:0; right:0; background:#333; color:#fff; padding:15px; text-align:center; font-size:14px; z-index:9999;">
+    This website uses cookies to ensure you get the best experience. 
+    <a href="privacy.html" style="color:#4fc3f7;">Learn more</a>.
+    <button id="cookieBtn" style="margin-left:10px; background:#0074d9; color:#fff; border:none; padding:6px 12px; border-radius:4px; cursor:pointer;">
+      OK
+    </button>
+  </div>
+
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo"/>
+      <h1>Football News Update AAI</h1>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div><div></div><div></div>
+    </div>
+  </header>
+  <div id="menu">
+    <a href="info.html">About / Contact / Privacy</a>
+    <a href="use.html">How To Use This Site</a>
+    <a href="terms and condition.html">Terms And Conditions</a>
+    <a href="disclaimer.html">Disclaimer</a>
+  </div>
+  <div class="featured-banner">🔥 Featured Matches Today – Stay Updated with Live Scores!  </div>
+
+  <div class="ad-banner">
+    <img src="logo.jpg" alt="Advertisement">
+  </div>
+
+  <!-- Match Widget -->
+  <div id="wg-api-football-games"
+       data-host="v3.football.api-sports.io"
+       data-key="04a9041d9b511c137bac1be9ee5bdd0d"
+       data-date=""
+       data-league=""
+       data-season=""
+       data-theme="grey"
+       data-refresh="15"
+       data-show-toolbar="true"
+       data-show-errors="false"
+       data-show-logos="true"
+       data-modal-game="true"
+       data-modal-standings="false"
+       data-modal-show-logos="true">
+  </div>
+  <script type="module" src="https://widgets.api-sports.io/2.0.3/widgets.js"></script>
+
+  <main id="matchesContainer"></main>
+
+  <div id="noMatchesFallback" style="display: none; padding: 1rem; text-align: center;">
+    <h2 style="color: #002b5c;">⚠️ Matches Temporarily Not Available</h2>
+    <p style="color: #444;">Check out these amazing football facts while you wait!</p>
+    <div class="facts-section" style="background:#eef6ff;border-left:4px solid #0074d9;padding:1rem;margin-top:1rem;border-radius:8px;text-align:left;max-width:800px;margin:auto;">
+      <h3 style="color:#002b5c;">⚽ Fun Football Facts</h3>
+      <ul id="facts-list" style="list-style: square;padding-left: 1.5rem;color:#333;font-size:16px;"></ul>
+    </div>
+  </div>
+
+  <script>
+    const apiKey = '04a9041d9b511c137bac1be9ee5bdd0d';
+    const leagues = [39,140,78,135,61,2,3,848,152,94,88,143,41,203,71,253,62,302,262,254,399];
+    const allFacts = [
+      "Cristiano Ronaldo can jump higher than an average NBA player.",
+      "The fastest red card in football history was after just 2 seconds.",
+      "Kazuyoshi Miura is still playing pro football past 50 years old.",
+      "A.S. Adema won 149–0 — the opponents scored own goals in protest.",
+      "A goalkeeper scored a 95th minute header to tie a match.",
+      "India withdrew from the 1950 World Cup due to a barefoot ban.",
+      "Lionel Messi scored 91 goals in a single calendar year.",
+      "Archie Thompson scored 13 goals in one international match.",
+      "Brazil has played in every FIFA World Cup since 1930.",
+      "Obafemi Martins used to do 7 backflips after scoring."
+    ];
+    function toggleMenu() {
+      document.getElementById('menu').classList.toggle('show');
+    }
+    function showFactsIfNoMatches() {
+      document.getElementById('matchesContainer').style.display = 'none';
+      document.getElementById('noMatchesFallback').style.display = 'block';
+      const factsList = document.getElementById('facts-list');
+      factsList.innerHTML = "";
+      allFacts.forEach(fact => {
+        const li = document.createElement('li');
+        li.textContent = fact;
+        factsList.appendChild(li);
+      });
+    }
+    function reloadToday() {
+      const today = new Date().toISOString().split('T')[0];
+      loadMatches(today);
+    }
+    function loadMatches(date) {
+      document.getElementById('matchesContainer').innerHTML = '';
+      let hasMatches = false;
+      let checkedLeagues = 0;
+      leagues.forEach(id => {
+        const season = id === 254 ? '2025' : '2024';
+        fetch(`https://v3.football.api-sports.io/fixtures?league=${id}&season=${season}&date=${date}`, {
+          headers: { 'x-apisports-key': apiKey }
+        })
+        .then(res => res.json())
+        .then(data => {
+          checkedLeagues++;
+          if (data.response.length) {
+            hasMatches = true;
+            const league = data.response[0].league;
+            const section = document.createElement('section');
+            section.className = 'league-section';
+            section.innerHTML = `<h2><img src="${league.logo}" style="height:20px;vertical-align:middle;margin-right:6px"> ${league.name}</h2>`;
+            data.response.forEach(match => {
+              const div = document.createElement('div');
+              div.className = 'match';
+              div.innerHTML = `
+                <div class="match-info">
+                  <span class="match-time">${new Date(match.fixture.date).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+                  <div class="teams">
+                    <img src="${match.teams.home.logo}" alt="${match.teams.home.name}" />
+                    <strong>${match.teams.home.name}</strong> vs
+                    <strong>${match.teams.away.name}</strong>
+                    <img src="${match.teams.away.logo}" alt="${match.teams.away.name}" />
+                  </div>
+                </div>
+                <span class="star">&#9733;</span>
+              `;
+              div.onclick = () => window.location.href = `match-details.html?match=${match.fixture.id}`;
+              section.appendChild(div);
+            });
+            document.getElementById('matchesContainer').appendChild(section);
+          }
+          if (checkedLeagues === leagues.length && !hasMatches) {
+            showFactsIfNoMatches();
+          }
+        });
+      });
+    }
+    reloadToday();
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      try {
+        const banner = document.getElementById("cookieConsent");
+        const btn = document.getElementById("cookieBtn");
+
+        if (!localStorage.getItem("cookieAccepted") && banner && btn) {
+          banner.style.display = "block";
+          btn.addEventListener("click", function () {
+            localStorage.setItem("cookieAccepted", "true");
+            banner.style.display = "none";
+          });
+        }
+      } catch (err) {
+        console.error("Cookie script error:", err);
+      }
+    });
+  </script>
+
+</body>
+</html>
+
+
