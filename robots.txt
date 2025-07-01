@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://football-news-update-aai.name.ng/sitemap.xml
