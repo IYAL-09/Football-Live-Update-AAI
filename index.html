@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6888276135991790" crossorigin="anonymous"></script
-                                                                                                                                              
-<link rel="icon" type="image/jpeg" href="iyal.jpg" sizes="112x112">
-<link rel="apple-touch-icon" href="iyal.jpg">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6888276135991790" crossorigin="anonymous"></script>
 
- 
-<!-- Schema.org structured data for search and logo -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Football News Update AAI",
-  "url": "https://football-news-update-aai.name.ng",
-  "logo": "https://football-news-update-aai.name.ng/iyal.jpg"
-}
-</script>
+  <!-- ✅ Logo for browser tab -->
+  <link rel="icon" href="iyal.jpg" type="image/jpeg" sizes="112x112">
+  <link rel="apple-touch-icon" href="iyal.jpg">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Football News Update AAI",
-  "url": "https://football-news-update-aai.name.ng",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://football-news-update-aai.name.ng/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
+  <!-- ✅ Schema.org structured data for logo & search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Football News Update AAI",
+    "url": "https://football-news-update-aai.name.ng/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://football-news-update-aai.name.ng/iyal.jpg",
+      "width": 220,
+      "height": 220
+    },
+    "sameAs": []
   }
-}
-</script>
+  </script>
 
-  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Football News Update AAI",
+    "url": "https://football-news-update-aai.name.ng/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://football-news-update-aai.name.ng/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +50,6 @@
   <meta property="og:title" content="Football News Update AAI – Live Football Scores & Match Info" />
   <meta property="og:description" content="Get the latest football scores, live match stats, and results from top leagues." />
   <meta property="og:image" content="https://football-news-update-aai.name.ng/iyal.jpg" />
-
   <meta property="og:url" content="https://football-news-update-aai.name.ng/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Football News Update AAI" />
@@ -57,8 +61,13 @@
   <meta name="twitter:image" content="https://football-news-update-aai.name.ng/og-preview.jpg" />
 
   <meta name="google-site-verification" content="G9lwgxYEus9zX0AyBLfXotyPdFEPVyYNd4Yc_reORVM" />
-  <link rel="icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- ✅ Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -96,14 +105,8 @@
       background: #fff;
     }
   </style>
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
-  
 </head>
 <body>
-
   <!-- ✅ Cookie Consent -->
   <div id="cookieConsent" style="display:none; position:fixed; bottom:0; left:0; right:0; background:#333; color:#fff; padding:15px; text-align:center; font-size:14px; z-index:9999;">
     This website uses cookies to ensure you get the best experience. 
@@ -125,7 +128,7 @@
   <div id="menu">
     <a href="fact.html">Football Facts & Unbelievable Memories</a>
     <a href="explained.html">Football Explanation</a>
-    <a href="contact.html"> Contact Us</a>
+    <a href="contact.html">Contact Us</a>
     <a href="use.html">How To Use This Site</a>
     <a href="terms and condition.html">Terms And Conditions</a>
     <a href="about.html">About Us</a>
@@ -133,13 +136,13 @@
     <a href="cookies.html">Cookies & Tracking</a>
     <a href="disclaimer.html">Disclaimer</a>
   </div>
-  <div class="featured-banner">🔥 Featured Matches Today – Stay Updated with Live Scores!  </div>
 
+  <div class="featured-banner">🔥 Featured Matches Today – Stay Updated with Live Scores!  </div>
   <div class="ad-banner">
     <img src="logo.jpg" alt="Advertisement">
   </div>
 
-  <!-- Match Widget -->
+  <!-- ✅ Match Widget -->
   <div id="wg-api-football-games"
        data-host="v3.football.api-sports.io"
        data-key="04a9041d9b511c137bac1be9ee5bdd0d"
@@ -158,7 +161,6 @@
   <script type="module" src="https://widgets.api-sports.io/2.0.3/widgets.js"></script>
 
   <main id="matchesContainer"></main>
-
   <div id="noMatchesFallback" style="display: none; padding: 1rem; text-align: center;">
     <h2 style="color: #002b5c;">⚠️ Matches Temporarily Not Available</h2>
     <p style="color: #444;">Check out these amazing football facts while you wait!</p>
@@ -172,6 +174,7 @@
     <p>&copy; 2025 Football News Update AAI. All rights reserved.</p>
   </footer>
 
+  <!-- Scripts -->
   <script>
     const apiKey = '04a9041d9b511c137bac1be9ee5bdd0d';
     const leagues = [39,140,78,135,61,2,3,848,152,94,88,143,41,203,71,253,62,302,262,254,399];
@@ -187,9 +190,11 @@
       "Brazil has played in every FIFA World Cup since 1930.",
       "Obafemi Martins used to do 7 backflips after scoring."
     ];
+
     function toggleMenu() {
       document.getElementById('menu').classList.toggle('show');
     }
+
     function showFactsIfNoMatches() {
       document.getElementById('matchesContainer').style.display = 'none';
       document.getElementById('noMatchesFallback').style.display = 'block';
@@ -201,10 +206,12 @@
         factsList.appendChild(li);
       });
     }
+
     function reloadToday() {
       const today = new Date().toISOString().split('T')[0];
       loadMatches(today);
     }
+
     function loadMatches(date) {
       document.getElementById('matchesContainer').innerHTML = '';
       let hasMatches = false;
@@ -249,15 +256,16 @@
         });
       });
     }
+
     reloadToday();
   </script>
 
+  <!-- ✅ Cookie consent functionality -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       try {
         const banner = document.getElementById("cookieConsent");
         const btn = document.getElementById("cookieBtn");
-
         if (!localStorage.getItem("cookieAccepted") && banner && btn) {
           banner.style.display = "block";
           btn.addEventListener("click", function () {
@@ -270,8 +278,5 @@
       }
     });
   </script>
-
 </body>
 </html>
-
-
